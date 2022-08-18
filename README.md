@@ -1,5 +1,5 @@
 # LearningOpenGL
-Learning OpenGL from TheCherno's tutorial
+This is my code-along for the OpenGL youtube series by TheCherno.
 
 ## Acknowledgments
 ### TheCherno
