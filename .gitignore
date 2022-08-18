@@ -29,9 +29,6 @@ CMakeFiles/*
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
-# External Projects
-[Vv]endor/
-
 # Mono auto generated files
 mono_crash.*
 
