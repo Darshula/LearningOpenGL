@@ -21,6 +21,12 @@ int main(int /*argc*/, char ** /*argv*/)
   if (glfwInit() != GLFW_TRUE) {
     return -1;
   }
+
+  glfwWindowHint(GLFW_RESIZABLE, GL_FALSE);
+  glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
+  glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
+  glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
+
   window = glfwCreateWindow(width, height, "Hello World", nullptr, nullptr);
   if (window == nullptr) {
     glfwTerminate();
@@ -30,11 +36,6 @@ int main(int /*argc*/, char ** /*argv*/)
   if (glewInit() != GLEW_OK) {
     return -1;
   }
-
-  glfwWindowHint(GLFW_RESIZABLE, GL_FALSE);
-  glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
-  glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
-  glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
   glfwSwapInterval(1);
 
