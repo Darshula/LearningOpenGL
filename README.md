@@ -1,10 +1,10 @@
 # LearningOpenGL
-This is my code-along for the OpenGL youtube series by TheCherno.
+This is my code-along for the OpenGL youtube series by TheCherno. I will be expanding this project after the youtube series.
 
 ## To Do
-- Fix texture files needing absolute paths
-- Unit tests
-- Input methods
+- [ ] Fix texture files needing absolute paths
+- [ ] Input methods
+- [ ] Unit tests
 
 ## Acknowledgments
 
