@@ -45,11 +45,11 @@ TestTexture2D::TestTexture2D()
   m_IndexBuffer =
       std::make_unique<IndexBuffer>(&indices.front(), indices.size());
 
-  m_Shader = std::make_unique<Shader>("D:/Projects/OpenGL/res/shaders/");
+  m_Shader = std::make_unique<Shader>("res/shaders/");
   m_Shader->bind();
 
   m_Texture = std::make_unique<Texture>(
-      "D:/Projects/OpenGL/res/textures/Pacman_Open.png");
+      "res/textures/Pacman_Open.png");
   m_Shader->setUniform1i("u_Texture", 0);
 }
 

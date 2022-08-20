@@ -2,7 +2,7 @@
 This is my code-along for the OpenGL youtube series by TheCherno. I will be expanding this project after the youtube series.
 
 ## To Do
-- [ ] Fix texture files needing absolute paths
+- [x] Fix texture files needing absolute paths
 - [ ] Input methods
 - [ ] Unit tests
 
