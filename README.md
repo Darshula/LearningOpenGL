@@ -2,7 +2,7 @@
 This is my code-along for the OpenGL youtube series by TheCherno. I will be expanding this project after the youtube series.
 
 ## To Do
-- [x] Fix texture files needing absolute paths
+- [ ] Fix texture files needing absolute paths
 - [ ] Input methods
 - [ ] Unit tests
 
@@ -12,6 +12,7 @@ This is my code-along for the OpenGL youtube series by TheCherno. I will be expa
 - [GLEW-cmake](https://github.com/Perlmint/glew-cmake) by Perlmint
 - [GLFW](https://github.com/glfw/glfw) by glfw
 - [GLM](https://github.com/g-truc/glm) by g-truc
+- [FreeType](https://github.com/freetype/freetype) by freetype
 - [Dear ImGui](https://github.com/ocornut/imgui) by ocornut
 - [Dear ImGui CMake build script](https://gist.github.com/rokups/f771217b2d530d170db5cb1e08e9a8f4) by rokups
 - [stb-cmake](https://github.com/gracicot/stb-cmake) by gracicot
